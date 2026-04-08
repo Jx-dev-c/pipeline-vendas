@@ -30,4 +30,4 @@ print(df.head())
 
 # Salvar dados tratados
 df.to_csv("vendas_tratado.csv", index=False)
-print("\n✅ Arquivo vendas_tratado.csv salvo com sucesso!")
+print("\n Arquivo vendas_tratado.csv salvo com sucesso!")
