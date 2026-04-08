@@ -2,7 +2,7 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-# Configuração . OK
+# Configuração .  OK
 random.seed(42)
 
 produtos = ["Caneta", "Lápis", "Borracha", "Régua", "Caderno"]
