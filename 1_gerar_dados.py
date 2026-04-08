@@ -2,13 +2,13 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-# Configuração
+# Configuração . OK
 random.seed(42)
 
 produtos = ["Caneta", "Lápis", "Borracha", "Régua", "Caderno"]
 vendedores = ["Ana", "Marcos", "Clara", "Luís", "Mariana"]
 
-# Gerar 100 vendas aleatórias
+# Gerar 100 vendas aleatórias . OK
 dados = []
 data_inicio = datetime(2024, 1, 1)
 
@@ -31,5 +31,5 @@ for i in range(100):
 df = pd.DataFrame(dados)
 df.to_csv("vendas_raw.csv", index=False)
 
-print("✅ Arquivo vendas_raw.csv gerado com sucesso!")
+print("Arquivo vendas_raw.csv gerado com sucesso!")
 print(df.head())
